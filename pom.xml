@@ -32,7 +32,10 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId> <!-- This is for REST API Capabilities-->
+			<artifactId>spring-boot-starter-web</artifactId> 
+			<!-- This is for REST API Capabilities, which turns my java app into a web server that can handle HTTP requests-->
+			<!--It can send frontend API requests like POST and get responses back-->
+			<!--Without it, I couldn't create REST endpoints-->
 		</dependency>
 
 		<dependency>
